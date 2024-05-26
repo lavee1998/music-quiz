@@ -1,3 +1,8 @@
+.youtube-frame {
+  width: 100% !important;
+  height: 400px;
+}
+
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
@@ -6,8 +11,8 @@
     "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
 
   --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --background-start-rgb: #0d2818;
+  --background-end-rgb: #000000;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,
@@ -90,9 +95,9 @@ body {
   background: linear-gradient(
       to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
+      var(--background-end-rgb)
     )
-    rgb(var(--background-start-rgb));
+    var(--background-start-rgb);
 }
 
 a {
