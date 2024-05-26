@@ -2,7 +2,7 @@
 import { Question } from "@/app/page";
 import Grid from "@mui/material/Grid/Grid";
 import AnswerButton, { AnswerButtonState } from "./AnswerButton";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Dialog from "@mui/material/Dialog";
 import Button from "@mui/material/Button/Button";
 import Box from "@mui/material/Box/Box";
@@ -10,6 +10,7 @@ import { Typography, useTheme } from "@mui/material";
 import SuccessAnswerGif from "../../public/dinosaur-dancing-dino.gif";
 import FailedAnswerGif from "../../public/dinosauro-chillhouse.gif";
 import NextImage from "next/image";
+
 
 export default function Answers({
   question,
