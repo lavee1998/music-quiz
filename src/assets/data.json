@@ -9,14 +9,24 @@
     "project-reference": null,
     "userAnswers": ["Tóth Marci", "Levi", "Gaál Balázs", "Lendvai Marci"]
   },
-  "tothmarton2": {
-    "id": "7b480491-ab48-4d3d-8603-6505185ef689",
-    "name": "Tóth Marci",
-    "video": "po5vTycfZTk",
+  "kisadam": {
+    "id": "7b480491-ab48-4d3d-8603-6505185ef681",
+    "name": "Ádám",
+    "video": "n4RjJKxsamQ",
     "start": 0,
-    "end": 73,
-    "description": "Sokat hallgattam favágó refaktok alatt. 2",
-    "project-reference": null,
+    "end": 60,
+    "description": "Szerintem nem nagyon kell magyarázzam, két éve ezt 'fújom' :D",
+    "project-reference": "Wind Load Generator Service",
     "userAnswers": ["Tóth Marci", "Levi", "Gaál Balázs", "Lendvai Marci"]
+  },
+  "bognarlili": {
+    "id": "7b480491-ab48-4d3d-8603-6505185ef681",
+    "name": "Lili",
+    "video": "AQHs0ldZ0-s",
+    "start": 104,
+    "end": 184,
+    "description": "Klasszikusnak mondható ez a szám, gyerekkoromban volt sláger és azóta is a megunhatatlan számok közé tartozik. Munkámhoz a szövegét szeretném kapcsolni. Amikor potenciális új vásárlókkal próbálom megbeszélni a vásárlás részleteit, sokszor csak annyi választ kapok, hogy még gondolkoznak, és majd visszaszólnak, vagy szintén gyakori a 'mindenképp vásárolni szeretnénk, de még xy dolgokat meg kell előtte tárgyalnunk'. Gyakran ilyen kijelentések után hiába keresem az adott embert, nem veszi fel a telefont, nem válaszol emailekre, egyszerűen eltűnnek. Azt amit ilyenkor érzek teljesen jól leírja madonna száma, várja az ember hogy szóljanak vissza, akarod-e vagy sem? De nem érkezik válasz. Elérni sem lehet így végül 'I'm hung up on you' , el kell engedni xy-t és bízni benne, hogy egyszer még feltűnik.",
+    "project-reference": "Árajjánlat follow-up",
+    "userAnswers": ["Stefi", "Ági", "Lili", "Viki"]
   }
 }
