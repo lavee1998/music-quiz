@@ -53,9 +53,9 @@ export default function QuestionView({
 
   return (
     <Box
-      height={"100vh"}
+      minHeight={"100vh"}
       display={"flex"}
-      p={6}
+      py={6}
       // bgcolor={"#72efdd"}
       flexDirection={"column"}
       alignContent={"center"}
