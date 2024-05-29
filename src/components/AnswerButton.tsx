@@ -1,6 +1,6 @@
 import { useTheme } from "@mui/material";
 import Button from "@mui/material/Button/Button";
-import React, { useEffect } from "react";
+import React, { useEffect, useRef } from "react";
 import { useState } from "react";
 import Confetti from "react-confetti";
 
@@ -59,6 +59,8 @@ export default function AnswerButton({
   const [state, setAnswerState] = useState(AnswerButtonState.default);
   const { width, height } = useWindowSize();
   const [showConfetti, setShowConfetti] = useState(false)
+  const winAudioRef = useRef<HTMLAudioElement>(null);
+  const loseAudioRef = useRef<HTMLAudioElement>(null);
 
   const handleAnswerClick = () => {
     setTimeout(() => {
@@ -76,11 +78,13 @@ export default function AnswerButton({
     setTimeout(() => {
       if (userName == correctAnswer) {
         setAnswerState(AnswerButtonState.correct);
+        playWin()
         setShowConfetti(true)
         setTimeout(() => {
           setShowConfetti(false)
         }, 5000)
       } else {
+        playLose()
         setAnswerState(AnswerButtonState.false);
       }
     }, 3200);
@@ -97,6 +101,24 @@ export default function AnswerButton({
 
     onClick();
   };
+
+
+  const playWin = () => {
+    if (winAudioRef.current) {
+      winAudioRef.current.play()
+    } else {
+      // Throw error
+    }
+  }
+
+  const playLose = () => {
+    if (loseAudioRef.current) {
+      loseAudioRef.current.play()
+    } else {
+      // Throw error
+    }
+  }
+
 
   const getColorByState = () => {
     switch (state) {
@@ -115,6 +137,9 @@ export default function AnswerButton({
   return (
     <React.Fragment>
       {!!showConfetti && <Confetti width={width} height={height} />}
+      <audio ref={winAudioRef} src='/win.mp3' />
+      <audio ref={loseAudioRef} src='/lose.mp3' />
+
 
       <Button
         onClick={handleAnswerClick}
