@@ -3,7 +3,7 @@ import styles from "./page.module.css";
 import data from "@/assets/data.json";
 import { promises as fs } from "fs";
 import { Box, Button, Typography } from "@mui/material";
-import LinkButton from "@/components/LinkButton";
+import LinkButton from "@/app/components/LinkButton";
 
 export type Question = {
   id: string;

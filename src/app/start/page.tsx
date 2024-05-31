@@ -1,15 +1,6 @@
-import YouTubePlayer from "@/components/YoutubePlayer";
-import { Button, colors, Container, Typography } from "@mui/material";
-import Box from "@mui/material/Box";
-import Grid from "@mui/material/Grid/Grid";
 import { Question } from "../page";
 import { promises as fs } from "fs";
-import NextImage from "next/image";
-import backgroundImage from "../../../public/z19.jpg";
-import Answers from "@/components/Answers";
-import { useState } from "react";
-import QuestionView from "@/components/QuestionView";
-import QuestionsView from "@/components/QuestionsView";
+import QuestionsView from "@/app/components/QuestionsView";
 
 function shuffle(array: Question[]) {
   let currentIndex = array.length;
@@ -38,10 +29,9 @@ export default async function Start({
     "utf8"
   );
   const data = JSON.parse(file) as Record<string, Question>;
-  console.log({ data });
   const questions = Object.values(data);
-  shuffle(questions);
+  // shuffle(questions);
 
-  if (!questions) return null
+  if (!questions) return null;
   return <QuestionsView questions={questions} />;
 }

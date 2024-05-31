@@ -16,11 +16,15 @@ const theme = createTheme({
     background: {
       // default: "#16db65",
       paper: "#16db65",
-      default: "#020202"
+      default: "#020202",
     },
     mode: "dark",
     primary: {
       main: "#058c42",
+      contrastText: "#ffffff",
+    },
+    secondary: {
+      main: "#ce93d8",
       contrastText: "#ffffff",
     },
   },

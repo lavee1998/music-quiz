@@ -6,6 +6,7 @@ import { dark } from "@mui/material/styles/createPalette";
 import ThemeProvider from "@mui/material/styles/ThemeProvider";
 import theme from "@/theme";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
+import { AnswerProvider } from "./context/AnswerContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -24,7 +25,7 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            {children}
+            <AnswerProvider>{children}</AnswerProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

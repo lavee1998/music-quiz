@@ -11,7 +11,6 @@ export default function YouTubePlayer({
   end: number;
 }) {
   const onPlayerReady: YouTubeProps["onReady"] = (event) => {
-    console.log({ event });
     // access to player in all event handlers via event.target
     event.target.playVideoAt(19);
     // event.target.pauseVideo();

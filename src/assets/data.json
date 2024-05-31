@@ -1,13 +1,13 @@
 {
   "tothmarton": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef689",
-    "name": "Tóth Marci",
+    "name": "T. Marci",
     "video": "po5vTycfZTk",
     "start": 0,
     "end": 73,
     "description": "Sokat hallgattam favágó refaktok alatt.",
     "project-reference": null,
-    "userAnswers": ["Tóth Marci", "Levi", "Gaál Balázs", "Lendvai Marci"]
+    "userAnswers": ["T. Marci", "Levi", "G. Balázs", "L. Marci"]
   },
   "kisadam": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef681",
@@ -17,15 +17,15 @@
     "end": 60,
     "description": "Szerintem nem nagyon kell magyarázzam, két éve ezt 'fújom' :D",
     "project-reference": "Wind Load Generator Service",
-    "userAnswers": ["Tóth Marci", "Levi", "Gaál Balázs", "Lendvai Marci"]
+    "userAnswers": ["Bálint", "Ádám", "Brigi", "Joci"]
   },
   "bognarlili": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef681",
     "name": "Lili",
-    "video": "AQHs0ldZ0-s",
-    "start": 104,
+    "video": "EDwb9jOVRtU",
+    "start": 106,
     "end": 184,
-    "description": "Klasszikusnak mondható ez a szám, gyerekkoromban volt sláger és azóta is a megunhatatlan számok közé tartozik. Munkámhoz a szövegét szeretném kapcsolni. Amikor potenciális új vásárlókkal próbálom megbeszélni a vásárlás részleteit, sokszor csak annyi választ kapok, hogy még gondolkoznak, és majd visszaszólnak, vagy szintén gyakori a 'mindenképp vásárolni szeretnénk, de még xy dolgokat meg kell előtte tárgyalnunk'. Gyakran ilyen kijelentések után hiába keresem az adott embert, nem veszi fel a telefont, nem válaszol emailekre, egyszerűen eltűnnek. Azt amit ilyenkor érzek teljesen jól leírja madonna száma, várja az ember hogy szóljanak vissza, akarod-e vagy sem? De nem érkezik válasz. Elérni sem lehet így végül 'I'm hung up on you' , el kell engedni xy-t és bízni benne, hogy egyszer még feltűnik.",
+    "description": "Amikor potenciális új vásárlókkal próbálom megbeszélni a vásárlás részleteit, sokszor csak annyi választ kapok, hogy még gondolkoznak, és majd visszaszólnak. Azt amit ilyenkor érzek teljesen jól leírja Madonna száma. Elérni sem lehet így végül 'I'm hung up on you', el kell engedni xy-t és bízni benne, hogy egyszer még feltűnik.",
     "project-reference": "Árajjánlat follow-up",
     "userAnswers": ["Stefi", "Ági", "Lili", "Viki"]
   },
@@ -37,7 +37,7 @@
     "end": 60,
     "description": "Erről mindig a Consteel jut eszembe. Nagyjából két éve hallottam először, amikor már kezdtem jobban bevonódni a cégbe, és épp a teherkombináció filteren dolgoztam. Kifejezte az akkori lelkesedésemet. Azóta is sokszor meghallgatom, ha erre emlékeztetni szeretném magam. Számomra ez a Consteel dala.",
     "project-reference": null,
-    "userAnswers": ["Stefi", "Ági", "Brigi", "Viki"]
+    "userAnswers": ["Stefi", "N. Balázs", "Brigi", "Joci"]
   },
   "szerafinagnes": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef6812",
@@ -47,7 +47,7 @@
     "end": 60,
     "description": "Sokféle zenét kerestem már munkához, de ez tetszett a legjobban. Közben lehet gondolkodni, nem tereli el a figyelmem semmilyen szöveg, de nagyon kellemes hallgatni, a hangulata mindig egy kicsit nosztalgikus, merengős érzéseket is kelt bennem.",
     "project-reference": null,
-    "userAnswers": ["Brigi", "Ági", "Levi", "G. Balázs"]
+    "userAnswers": ["Stefi", "Ági", "Levi", "G. Balázs"]
   },
   "lendvaimarton": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef6181",
@@ -62,12 +62,12 @@
   "biroboti": {
     "id": "7b480491-ab48-4d3d-8603-6505185ef6181",
     "name": "Boti",
-    "video": "uKCdjv_pCc0",
+    "video": "8GEObTEFEeo",
     "start": 55,
     "end": 105,
     "description": "Voltam diáknapozni, táncmaratonon, ahol 8 óráig táncoltam, ilyen zenék mentek.",
     "project-reference": null,
-    "userAnswers": ["Boti", "István", "Réka", "Sári"]
+    "userAnswers": ["Boti", "AD Marci", "Réka", "Sári"]
   },
   "nemethbalazs": {
     "id": "7b480491-ab48-4d3d-8603-65051a85sef6181",
@@ -77,27 +77,27 @@
     "end": 60,
     "description": "Ahogy a videóban is van egy nagy káosz, úgy a kódban is van egy kis káosz sok esetben. Itt a zenészek is különc módjára viselkednek, ahogy mi is a programozó csapatban. Nincs konkrét projekt, csak egy hasonló életérzés.",
     "project-reference": null,
-    "userAnswers": ["T. Marci", "G. Balázs", "Joci", "N. Balázs"]
+    "userAnswers": ["T. Marci", "G. Balázs", "István", "N. Balázs"]
   },
-  "kubiczazsolt": {
+  "gubiczazsolt": {
     "id": "7b480491-ab48-4d3d-8603-65051sa85sssef6181",
     "name": "Zsolt",
     "video": "H5RtPoMFq6s",
-    "start": 47,
-    "end": 107,
+    "start": 202,
+    "end": 262,
     "description": "Ez a dalszöveg az ars-poétikám is lehetne.",
     "project-reference": null,
-    "userAnswers": ["Zsolt", "Joci", "Brigi", "Bálint"]
+    "userAnswers": ["Zsolt", "Joci", "Viki", "Bálint"]
   },
   "zilahiistvan": {
     "id": "7b480491-ab48-4d3d-8603-65051sa85sef6181",
     "name": "István",
-    "video": "4xmckWVPRaI",
+    "video": "SQMFRSo3DSE",
     "start": 20,
-    "end": 80,
+    "end": 85,
     "description": "Rég hallottam, de most a keresgélés miatt újra meghallgattam és király :D",
     "project-reference": null,
-    "userAnswers": ["Boti", "István", "Réka", "Ádám"]
+    "userAnswers": ["Ági", "István", "Réka", "Ádám"]
   },
   "szalaijozsef": {
     "id": "7b480491-ab48-4d3d-8603-65051sa85sef6181",
@@ -107,7 +107,7 @@
     "end": 240,
     "description": "Nagy kedvencem ez a szám, egyrészt nagyon jó a zene és az ének, másrészt sokszor találónak érzem a refrén szövegét",
     "project-reference": null,
-    "userAnswers": ["Boti", "István", "Réka", "Ádám"]
+    "userAnswers": ["Joci", "István", "Boti", "Ádám"]
   },
   "balint": {
     "id": "7b480491-ab48-4d3d-8603-65051asdsa85sef6181",
@@ -117,7 +117,7 @@
     "end": 60,
     "description": "Amerikában autózva...",
     "project-reference": "AISC",
-    "userAnswers": ["Bálint", "István", "Réka", "Ádám"]
+    "userAnswers": ["Bálint", "Zsolt", "Joci", "Ádám"]
   },
   "sari": {
     "id": "7b480491-ab48-4d3d-8603-65051asdsa85asdadsef6181",
@@ -127,16 +127,46 @@
     "end": 60,
     "description": "Egyszerű és szép. Egy vonaton hallottam először az irodába menet, egy fiatal nő énekelte két hangszer kíséretében. Az összes utas vele énekelte a refrénjét.",
     "project-reference": null,
-    "userAnswers": ["Brigi", "Sári", "Ági", "Viki"]
+    "userAnswers": ["Brigi", "Sári", "Stefi", "Boti"]
   },
   "stefi": {
     "id": "7b480491-ab48-4d3d-8603-65051asdsa85asdadsef6181",
     "name": "Stefi",
     "video": "CevxZvSJLk8",
-    "start": 0,
-    "end": 60,
+    "start": 132 ,
+    "end": 167,
     "description": "Egy fontos projektem miatt választottam ezt a számot, a címe ez esetben találó. Jó látni, ahogy bővül, és izgalmas referencia anyagokat kapunk.",
     "project-reference": "Steel Lion",
-    "userAnswers": ["Levi", "T. Marci", "Ági", "Stefi"]
+    "userAnswers": ["Levi", "Lili", "Ági", "Stefi"]
+  },
+  "gaalbalazs": {
+    "id": "7b480491-ab48-4d3d-8603-65051asdsa85asdadsef6181",
+    "name": "G. Balázs",
+    "video": "65ARYmqvTBI",
+    "start": 0,
+    "end": 60,
+    "description": "Engem motivál ez a szám, ad egy lendületet. Segít, amikor pénteken beüt az 'összeomlás a build szerver mellett' :)",
+    "project-reference": null,
+    "userAnswers": ["Zsolt", "T. Marci", "G. Balázs", "N. Balázs"]
+  },
+  "reka": {
+    "id": "7b480491-ab4sdsd8-4d3d-8603-65051asdsa85asdadsef6181",
+    "name": "Réka",
+    "video": "VMp55KH_3wo",
+    "start": 0,
+    "end": 60,
+    "description": "Energiát ad. Amikor fáradt vagyok, kicsit felvídít. Jól lehet rá a székedben ülve táncolni.",
+    "project-reference": null,
+    "userAnswers": ["Sári", "Réka", "Brigi", "Stefi"]
+  },
+  "admarci": {
+    "id": "7b480491-ab4sdsd8-4d3d-8603-65051asdsa85asdadsef6181",
+    "name": "AD Marci",
+    "video": "gDv9rKuhcvM",
+    "start": 0,
+    "end": 60,
+    "description": "Köszöntelek új felhasználó a buliban...",
+    "project-reference": null,
+    "userAnswers": ["AD Marci", "G. Balázs", "Ági", "Boti"]
   }
 }
