@@ -65,8 +65,8 @@ export function AnswerDialog({
         <NextImage
           style={{
             width: "100%",
-            height: "350px",
-            objectFit: "cover",
+            maxHeight: "350px",
+            objectFit: "contain",
           }}
           src={getDialogImage()}
           alt="failed-answer-gif"

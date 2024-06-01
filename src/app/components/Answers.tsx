@@ -61,6 +61,13 @@ export default function Answers({
       setRelevantStateBtn(_answer);
       setPendingAnswerBtn(null);
       setRelevantSound();
+
+      if (isTrue) {
+        setShowConfetti(true);
+        setTimeout(() => {
+          setShowConfetti(false);
+        }, 5000);
+      }
     }, 3000);
     setTimeout(() => {
       setPendingAnswerBtn(_answer);
@@ -101,7 +108,7 @@ export default function Answers({
       setCorrectAnswerBtn(null);
       setPendingAnswerBtn(null);
       setFailedAnswerBtn(null);
-    }, 7000);
+    }, 6500);
   };
 
   const onClickNext = () => {
