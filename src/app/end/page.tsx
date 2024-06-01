@@ -8,7 +8,7 @@ import {
   ListItemIcon,
   ListItemText,
 } from "@mui/material";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AnswerContext } from "../context/AnswerContext";
 import {
   CancelOutlined,
@@ -22,6 +22,11 @@ export default function EndPage() {
   const { answers, setAnswer } = useContext(AnswerContext);
   const router = useRouter();
 
+  useEffect(() => {
+    if (!Object.keys(answers).length) {
+      router.push("/");
+    }
+  }, []);
   return (
     <Box
       minHeight={"100vh"}
@@ -42,8 +47,8 @@ export default function EndPage() {
                 borderBottom: "1px solid white",
               }}
             >
-              <Box minWidth={30}> {i + 1}.</Box>
-              <ListItemIcon sx={{ ml: 3 }}>
+              <Box minWidth={25}> {i + 1}.</Box>
+              <ListItemIcon sx={{ ml: 2 }}>
                 {answer.state === AnswerButtonState.correct ? (
                   <CheckCircle color="success" />
                 ) : answer.state === AnswerButtonState.false ? (
