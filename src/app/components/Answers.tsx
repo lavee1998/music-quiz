@@ -12,6 +12,7 @@ import FailedAnswerGif from "../../../public/dinosauro-chillhouse.gif";
 import NextImage from "next/image";
 import { useWindowSize } from "@/hooks";
 import Confetti from "react-confetti";
+import { AnswerDialog } from "./AnswerDialog";
 
 export default function Answers({
   question,
@@ -130,93 +131,11 @@ export default function Answers({
       {!!showConfetti && <Confetti width={width} height={height} />}
       <audio ref={winAudioRef} src="/win.mp3" />
       <audio ref={loseAudioRef} src="/lose.mp3" />
-      {answer === question.name && (
-        <Dialog
-          open={showNextDialog}
-          PaperProps={{
-            sx: {
-              background: theme.palette.background.default,
-              // boxShadow: "10px 5px 5px 3px green",
-              border: "1px solid " + theme.palette.success.main,
-            },
-          }}
-        >
-          <Box maxHeight={"90%"}>
-            <NextImage
-              style={{
-                width: "100%",
-                maxHeight: "400px",
-                objectFit: "contain",
-              }}
-              src={SuccessAnswerGif}
-              alt="success-answer-gif"
-            />
-
-            <Box p={4}>
-              <Typography variant="h5" mt={2}>
-                Ez a beszéd!
-              </Typography>
-              <Typography variant="h4">
-                Készen állsz a következő körre?
-              </Typography>
-
-              <Button
-                color="secondary"
-                variant="contained"
-                onClick={onClickNext}
-                sx={{
-                  textAlign: "center",
-                  margin: "auto",
-                  mt: 3,
-                }}
-              >
-                Következő kihívás
-              </Button>
-            </Box>
-          </Box>
-        </Dialog>
-      )}
-      {answer !== question.name && answer != null && (
-        <Dialog
-          PaperProps={{
-            sx: {
-              background: theme.palette.background.default,
-              border: "1px solid " + theme.palette.secondary.main,
-            },
-          }}
-          open={showNextDialog}
-        >
-          <Box p={4}>
-            <NextImage
-              style={{
-                width: "100%",
-                height: "350px",
-                objectFit: "cover",
-              }}
-              src={FailedAnswerGif}
-              alt="failed-answer-gif"
-            />
-            <Typography variant="h5" mt={2}>
-              Hát ez most nem sikerült! Na sebaj!
-            </Typography>
-            <Typography variant="h4">
-              Készen állsz a következő körre?
-            </Typography>
-            <Button
-              color="secondary"
-              variant="contained"
-              onClick={onClickNext}
-              sx={{
-                textAlign: "center",
-                margin: "auto",
-                mt: 3,
-              }}
-            >
-              Következő kihívás
-            </Button>{" "}
-          </Box>
-        </Dialog>
-      )}
+      <AnswerDialog
+        isCorrect={answer === question.name}
+        showDialog={showNextDialog}
+        onClickNext={onClickNext}
+      />
 
       {question.userAnswers.map((user, i) => {
         return (
