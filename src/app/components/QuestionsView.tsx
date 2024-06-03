@@ -55,6 +55,7 @@ export default function QuestionsView({
     <QuestionView
       question={questions[questionIndex]}
       onAnswerQuestion={onAnswer}
+      index={questionIndex}
     />
   );
 }

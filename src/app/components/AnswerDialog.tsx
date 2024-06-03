@@ -14,40 +14,42 @@ import LoseDino2 from "../../../public/failed-dino-2.gif";
 import LoseDino3 from "../../../public/failed-dino-3.gif";
 import LoseDino4 from "../../../public/failed-dino-4.gif";
 import LoseDino5 from "../../../public/failed-dino-5.gif";
+import { useEffect, useState } from "react";
 
 type AnswerDialogProps = {
   showDialog: boolean;
   onClickNext: () => void;
   isCorrect: boolean;
 };
+
+const winDinoImages = [WinDino1, WinDino2, WinDino3, WinDino4, WinDino5];
+const loseDinoImages = [LoseDino1, LoseDino2, LoseDino3, LoseDino4, LoseDino5];
+
+const getDialogImage = (isCorrect: boolean) => {
+  if (isCorrect) {
+    return winDinoImages[Math.floor(Math.random() * winDinoImages.length)];
+  } else {
+    return loseDinoImages[Math.floor(Math.random() * loseDinoImages.length)];
+  }
+};
+
 export function AnswerDialog({
   showDialog,
   onClickNext,
   isCorrect,
 }: AnswerDialogProps) {
   const theme = useTheme();
-  const winDinoImages = [WinDino1, WinDino2, WinDino3, WinDino4, WinDino5];
-  const loseDinoImages = [
-    LoseDino1,
-    LoseDino2,
-    LoseDino3,
-    LoseDino4,
-    LoseDino5,
-  ];
+  const [image, setImage] = useState(getDialogImage(isCorrect));
+
+  useEffect(() => {
+    setImage(getDialogImage(isCorrect));
+  }, [showDialog]);
 
   const getDialogTitle = () => {
     if (isCorrect) {
       return "Ez a beszéd!";
     } else {
       return "Hát ez most nem sikerült! Na sebaj!";
-    }
-  };
-
-  const getDialogImage = () => {
-    if (isCorrect) {
-      return winDinoImages[Math.floor(Math.random() * winDinoImages.length)];
-    } else {
-      return loseDinoImages[Math.floor(Math.random() * loseDinoImages.length)];
     }
   };
 
@@ -68,7 +70,7 @@ export function AnswerDialog({
             maxHeight: "350px",
             objectFit: "contain",
           }}
-          src={getDialogImage()}
+          src={image}
           alt="failed-answer-gif"
         />
         <Typography variant="h5" mt={2}>

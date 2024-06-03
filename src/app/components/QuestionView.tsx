@@ -7,10 +7,12 @@ import Answers from "@/app/components/Answers";
 import { Question } from "@/app/page";
 
 export default function QuestionView({
+  index,
   question,
   onAnswerQuestion,
 }: {
   question: Question;
+  index: number;
   onAnswerQuestion: (answer: string | null) => void;
 }) {
   if (!question) return null;
@@ -43,7 +45,7 @@ export default function QuestionView({
           />
           <Box p={8} textAlign={"center"}>
             <Typography color="white" variant="h4">
-              {question.description}
+              {index + 1}. {question.description}
             </Typography>
           </Box>
           <Answers onAnswerQuestion={onAnswerQuestion} question={question} />
