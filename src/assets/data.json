@@ -129,11 +129,21 @@
     "project-reference": null,
     "userAnswers": ["Brigi", "Sári", "Stefi", "Boti"]
   },
+  "levi": {
+    "id": "7b480491-ab48-4d3d-86sd03-6505185e3f681",
+    "name": "Levi",
+    "video": "0Zo1JFktFW8",
+    "start": 127,
+    "end": 193,
+    "description": "Régen sokszor halgattam ezt a zenét ha motivációra volt szükségem, és nem csak munka közben, sőt igazából akkor a legkevésbé. Sok embernek jól jönne egy új lélek manapság:) Ennyiii csá!",
+    "project-reference": null,
+    "userAnswers": ["Lili", "AD Marci", "Levi", "István"]
+  },
   "stefi": {
     "id": "7b480491-ab48-4d3d-8603-65051asdsa85asdadsef6181",
     "name": "Stefi",
     "video": "CevxZvSJLk8",
-    "start": 132 ,
+    "start": 132,
     "end": 167,
     "description": "Egy fontos projektem miatt választottam ezt a számot, a címe ez esetben találó. Jó látni, ahogy bővül, és izgalmas referencia anyagokat kapunk.",
     "project-reference": "Steel Lion",
